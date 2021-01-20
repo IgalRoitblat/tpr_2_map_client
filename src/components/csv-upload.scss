@@ -1,0 +1,21 @@
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+
+    .upload-btn {
+        padding: 14px;
+        border-radius: 4px;
+    }
+
+    .file-name-display {
+        width: 50%;
+        border: 1px solid;
+        min-height: 2.8rem;
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

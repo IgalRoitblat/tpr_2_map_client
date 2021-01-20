@@ -1,0 +1,46 @@
+.app {
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .yotpo-logo {
+        height: 10rem;
+        width: 10rem;
+        object-fit: contain;
+    }
+
+    .error-msg {
+        color: red;
+    }
+
+    .success-msg {
+        color: green;
+    }
+
+    .controls-container,
+    .logo-contianer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .submit-btn {
+            padding: 14px;
+            border-radius: 4px;
+            margin-top: 2%;
+        }
+    }
+    .loader-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 10rem;
+            width: 10rem;
+            object-fit: contain;
+        }
+    }
+}
